@@ -7,3 +7,4 @@ func EventOrOdd(number int) string{
 		return "odd"
 	}
 }
+
