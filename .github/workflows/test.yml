@@ -10,8 +10,4 @@ jobs:
       - uses: actions/setup-go@v5
         with:
         go-version: '1.22'
-      - name: Initialize go.mod (for CI only)
-        run: |
-          go mod init example.com/temp
-          go mod tidy
       - run: go test ./\.go/excellent
